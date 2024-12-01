@@ -174,6 +174,64 @@
     "weight": 0
   },
   {
+    "bookSourceComment": "//2024-12-01 修复书名和作者规则\n/*\n 登录里面点击注册会自动注册账号\t,同时可以在源变量里面看到账号和密码\n \n 如果登录过期了，点击登录里面的登录操作可以重新获取cookie\n*/",
+    "bookSourceGroup": "",
+    "bookSourceName": "轻小说文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wenku8.net/index.php",
+    "customOrder": -7384,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "电击文库::https://www.wenku8.net/modules/article/articlelist.php?class=1&page={{page}}\n富士见文库::https://www.wenku8.net/modules/article/articlelist.php?class=2&page={{page}}\n角川文库::https://www.wenku8.net/modules/article/articlelist.php?class=3&page={{page}}\nMF文库J::https://www.wenku8.net/modules/article/articlelist.php?class=4&page={{page}}\nFami通文库::https://www.wenku8.net/modules/article/articlelist.php?class=5&page={{page}}\nGA文库::https://www.wenku8.net/modules/article/articlelist.php?class=6&page={{page}}\nHJ文库::https://www.wenku8.net/modules/article/articlelist.php?class=7&page={{page}}\n一迅社::https://www.wenku8.net/modules/article/articlelist.php?class=8&page={{page}}\n集英社::https://www.wenku8.net/modules/article/articlelist.php?class=9&page={{page}}\n小学馆::https://www.wenku8.net/modules/article/articlelist.php?class=10&page={{page}}\n讲谈社::https://www.wenku8.net/modules/article/articlelist.php?class=11&page={{page}}\n少女文库::https://www.wenku8.net/modules/article/articlelist.php?class=12&page={{page}}\n其他文库::https://www.wenku8.net/modules/article/articlelist.php?class=13&page={{page}}\n游戏剧本::https://www.wenku8.net/modules/article/articlelist.php?class=14&page={{page}}\n全部轻小说::https://www.wenku8.net/modules/article/articlelist.php?page={{page}}\n动画化作品::https://www.wenku8.net/modules/article/toplist.php?sort=anime&page={{page}}\n完结全本::https://www.wenku8.net/modules/article/articlelist.php?fullflag=1&page={{page}}\n排行榜::https://www.wenku8.net/modules/article/toplist.php?sort=allvisit&page={{page}}\n总收藏榜::https://www.wenku8.net/modules/article/toplist.php?sort=goodnum&page={{page}}\n总排行榜::https://www.wenku8.net/modules/article/toplist.php?sort=allvisit&page={{page}}\n月排行榜::https://www.wenku8.net/modules/article/toplist.php?sort=monthvisit&page={{page}}\n周排行榜::https://www.wenku8.net/modules/article/toplist.php?sort=weekvisit&page={{page}}\n日排行榜::https://www.wenku8.net/modules/article/toplist.php?sort=dayvisit&page={{page}}\n总推荐榜::https://www.wenku8.net/modules/article/toplist.php?sort=allvote&page={{page}}\n月推荐榜::https://www.wenku8.net/modules/article/toplist.php?sort=monthvote&page={{page}}\n周推荐榜::https://www.wenku8.net/modules/article/toplist.php?sort=weekvote&page={{page}}\n日推荐榜::https://www.wenku8.net/modules/article/toplist.php?sort=dayvote&page={{page}}\n最新入库::https://www.wenku8.net/modules/article/toplist.php?sort=postdate&page={{page}}\n最近更新::https://www.wenku8.net/modules/article/toplist.php?sort=lastupdate&page={{page}}\n字数排行::https://www.wenku8.net/modules/article/toplist.php?sort=size&page={{page}}\n校园::https://www.wenku8.net/modules/article/tags.php?t=%D0%A3%D4%B0&page={{page}}\n青春::https://www.wenku8.net/modules/article/tags.php?t=%C7%E0%B4%BA&page={{page}}\n恋爱::https://www.wenku8.net/modules/article/tags.php?t=%C1%B5%B0%AE&page={{page}}\n治愈::https://www.wenku8.net/modules/article/tags.php?t=%D6%CE%D3%FA&page={{page}}\n群像::https://www.wenku8.net/modules/article/tags.php?t=%C8%BA%CF%F1&page={{page}}\n竞技::https://www.wenku8.net/modules/article/tags.php?t=%BE%BA%BC%BC&page={{page}}\n音乐::https://www.wenku8.net/modules/article/tags.php?t=%D2%F4%C0%D6&page={{page}}\n美食::https://www.wenku8.net/modules/article/tags.php?t=%C3%C0%CA%B3&page={{page}}\n旅行::https://www.wenku8.net/modules/article/tags.php?t=%C2%C3%D0%D0&page={{page}}\n欢乐向::https://www.wenku8.net/modules/article/tags.php?t=%BB%B6%C0%D6%CF%F2&page={{page}}\n经营::https://www.wenku8.net/modules/article/tags.php?t=%BE%AD%D3%AA&page={{page}}\n职场::https://www.wenku8.net/modules/article/tags.php?t=%D6%B0%B3%A1&page={{page}}\n斗智::https://www.wenku8.net/modules/article/tags.php?t=%B6%B7%D6%C7&page={{page}}\n脑洞::https://www.wenku8.net/modules/article/tags.php?t=%C4%D4%B6%B4&page={{page}}\n宅文化::https://www.wenku8.net/modules/article/tags.php?t=%D5%AC%CE%C4%BB%AF&page={{page}}\n穿越::https://www.wenku8.net/modules/article/tags.php?t=%B4%A9%D4%BD&page={{page}}\n奇幻::https://www.wenku8.net/modules/article/tags.php?t=%C6%E6%BB%C3&page={{page}}\n魔法::https://www.wenku8.net/modules/article/tags.php?t=%C4%A7%B7%A8&page={{page}}\n异能::https://www.wenku8.net/modules/article/tags.php?t=%D2%EC%C4%DC&page={{page}}\n战斗::https://www.wenku8.net/modules/article/tags.php?t=%D5%BD%B6%B7&page={{page}}\n科幻::https://www.wenku8.net/modules/article/tags.php?t=%BF%C6%BB%C3&page={{page}}\n机战::https://www.wenku8.net/modules/article/tags.php?t=%BB%FA%D5%BD&page={{page}}\n战争::https://www.wenku8.net/modules/article/tags.php?t=%D5%BD%D5%F9&page={{page}}\n冒险::https://www.wenku8.net/modules/article/tags.php?t=%C3%B0%CF%D5&page={{page}}\n龙傲天::https://www.wenku8.net/modules/article/tags.php?t=%C1%FA%B0%C1%CC%EC&page={{page}}\n悬疑::https://www.wenku8.net/modules/article/tags.php?t=%D0%FC%D2%C9&page={{page}}\n犯罪::https://www.wenku8.net/modules/article/tags.php?t=%B7%B8%D7%EF&page={{page}}\n复仇::https://www.wenku8.net/modules/article/tags.php?t=%B8%B4%B3%F0&page={{page}}\n黑暗::https://www.wenku8.net/modules/article/tags.php?t=%BA%DA%B0%B5&page={{page}}\n猎奇::https://www.wenku8.net/modules/article/tags.php?t=%C1%D4%C6%E6&page={{page}}\n惊悚::https://www.wenku8.net/modules/article/tags.php?t=%BE%AA%E3%A4&page={{page}}\n间谍::https://www.wenku8.net/modules/article/tags.php?t=%BC%E4%B5%FD&page={{page}}\n末日::https://www.wenku8.net/modules/article/tags.php?t=%C4%A9%C8%D5&page={{page}}\n游戏::https://www.wenku8.net/modules/article/tags.php?t=%D3%CE%CF%B7&page={{page}}\n大逃杀::https://www.wenku8.net/modules/article/tags.php?t=%B4%F3%CC%D3%C9%B1&page={{page}}\n青梅竹马::https://www.wenku8.net/modules/article/tags.php?t=%C7%E0%C3%B7%D6%F1%C2%ED&page={{page}}\n妹妹::https://www.wenku8.net/modules/article/tags.php?t=%C3%C3%C3%C3&page={{page}}\n女儿::https://www.wenku8.net/modules/article/tags.php?t=%C5%AE%B6%F9&page={{page}}\nJK::https://www.wenku8.net/modules/article/tags.php?t=JK&page={{page}}\nJC::https://www.wenku8.net/modules/article/tags.php?t=JC&page={{page}}\n大小姐::https://www.wenku8.net/modules/article/tags.php?t=%B4%F3%D0%A1%BD%E3&page={{page}}\n性转::https://www.wenku8.net/modules/article/tags.php?t=%D0%D4%D7%AA&page={{page}}\n伪娘::https://www.wenku8.net/modules/article/tags.php?t=%CE%B1%C4%EF&page={{page}}\n人外::https://www.wenku8.net/modules/article/tags.php?t=%C8%CB%CD%E2&page={{page}}\n后宫::https://www.wenku8.net/modules/article/tags.php?t=%BA%F3%B9%AC&page={{page}}\n百合::https://www.wenku8.net/modules/article/tags.php?t=%B0%D9%BA%CF&page={{page}}\n耽美::https://www.wenku8.net/modules/article/tags.php?t=%B5%A2%C3%C0&page={{page}}\nNTR::https://www.wenku8.net/modules/article/tags.php?t=NTR&page={{page}}\n女性视角::https://www.wenku8.net/modules/article/tags.php?t=%C5%AE%D0%D4%CA%D3%BD%C7&page={{page}}\nnull",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"}",
+    "jsLib": "function registerFn(cookie) {\nvar {java,source} = this\t\nvar su=source.getKey()\n\nbody={\n   'username':`qaz${parseInt(Math.random()*1000000000000)}`,\n    'password': '123456789',\n    'repassword':'123456789',\n     'email': `${parseInt(Math.random()*1000000000000)}@163.com`,\n    'sex':0,\n    'action': 'newuser',\n    'usecookie': 315360000,\n    'submit': \"\"\n}\n\nbodyString = Object.keys(body).reduce((pre,key)=>{\n    pre += (pre!=''?'&':'') + `${key}=${body[key]}`\n    return pre\n},'')\n\n\noption={\n   'method': 'POST',\n    'body': bodyString,\n    'headers':{ \n         'X-Requested-With': 'XMLHttpRequest',\n         'Content-Type': 'application/x-www-form-urlencoded'\n    }\n}\n  url='https://www.wenku8.net/register.php?do=submit,'+JSON.stringify(option);\n  \n// cookie.removeCookie(url)\n\nrs=java.ajax(url);\n\n\n if(/出现错误/.test(rs)){\n   java.toast(`注册失败，重新注册！`)\n   return false\n }\n// token=cookie.getKey(url,\"SESSION_ID\");\n\njava.log(cookie.getCookie(url))\n  Cookie={\n   \"Cookie\":cookie.getCookie(url),\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n  }\n   header = JSON.stringify(Cookie);\n   source.putLoginHeader(header);\n   source.setVariable(`${body.username}|${body.password}`)\n   java.toast(`注册成功----${body.username}`)\n}\n\nfunction loginFn(cookie){\n   var {java,source} = this\n   \n   var userInfo = source.getVariable() || null\n   if(userInfo && String(userInfo).split('|').length>=2){\n   \n   var userArray = String(userInfo).split('|') \n   \t  \n body={\n   'username':userArray[0],\n    'password': userArray[1],\n    'action': 'login',\n    'usecookie': 315360000,\n    'submit': \"\"\n}\n\nbodyString = Object.keys(body).reduce((pre,key)=>{\n    pre += (pre!=''?'&':'') + `${key}=${body[key]}`\n    return pre\n},'')\n\n\noption={\n   'method': 'POST',\n    'body': bodyString,\n    'headers':{ \n         'X-Requested-With': 'XMLHttpRequest',\n         'Content-Type': 'application/x-www-form-urlencoded'\n    }\n}\n  url='https://www.wenku8.net/login.php?do=submit,'+JSON.stringify(option);\n  \n  rs=java.ajax(url);\n\n  Cookie={\n   \"Cookie\":cookie.getCookie(url),\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n  }\n   header = JSON.stringify(Cookie);\n   source.putLoginHeader(header);\n   java.toast(`登录成功----${body.username}`)\n\n   \t  \n   }else{\n      registerFn.call(this,cookie)\n   \treturn false\t\n   }\n}\n\n\nfunction sleep(value){\nvar date = Date.now();\r\nvar currentDate = null;\r\ndo {\r\n  currentDate = Date.now();\r\n} while (currentDate - date < value);\n}",
+    "lastUpdateTime": 1733022344784,
+    "loginUi": "[\n  {\n    \"name\": \"注册\",\n    \"type\": \"button\",\n    \"action\": \"register()\"\n  },\n  {\n    \"name\": \"登录\",\n    \"type\": \"button\",\n    \"action\": \"login()\"\n  }\n]",
+    "loginUrl": "function register() {\n\tregisterFn(cookie)\n}\nfunction login() {\n\tloginFn(cookie)\n}",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "text.小说作者@text##小说作者：",
+      "intro": "//span[6]",
+      "kind": "text.文库分类@text##文库分类：",
+      "lastChapter": "tag.tbody@tag.tr@tag.td.1@tag.span.3@text",
+      "name": "@tag.tbody.0@tag.tr.0@tag.td.0@tag.span@tag.b@text",
+      "tocUrl": "text.小说目录@href",
+      "wordCount": "text.全文长度@text##全文长度："
+    },
+    "ruleContent": {
+      "content": "id.content@html##本文来自.*|最新.*一网打尽！",
+      "webJs": "{'webView': true}"
+    },
+    "ruleExplore": {
+      "author": "//div[2]/p[1]/text()##/分类.*",
+      "bookList": "//div[@id='content']//td/div",
+      "bookUrl": "text.我要阅读@href",
+      "coverUrl": "img@src",
+      "intro": "//p[4]",
+      "kind": "//p[3]/span/text()&&//p[2]/text()",
+      "name": "//div[2]/b/a/text()"
+    },
+    "ruleSearch": {
+      "author": "text.作者@text##/分类.*",
+      "bookList": "id.content@tag.table@tag.tbody@tag.tr@tag.td@tag.div",
+      "bookUrl": "text.我要阅读@href",
+      "coverUrl": "img@src",
+      "intro": "//p[4]",
+      "kind": "text.分类@text##作者.*分类:",
+      "lastChapter": "text.更新@text##更新:|/.*",
+      "name": "@tag.b@tag.a@text",
+      "wordCount": "text.字数@text##.*字数:|/.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.css@tag.td@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "@js:\n\"https://www.wenku8.net/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},\"+JSON.stringify({\r\n\t \"charset\": \"GBK\",\r  \n\t \"method\": \"GET\",\r \r\n\t})",
+    "weight": 0
+  },
+  {
     "bookSourceComment": "第一次写书源，改善好了重发;\n搜索页封面规则无效，需跳转url;\n完善发现页规则;\n不过分类内容很杂？有同书不同名的;\n修改详情页最新章节规则;\n搜索页和同书不同名的没封面，正文偶会有转载广告需替换，不过能用了;\n转载书站\n精华书阁:https://m.axs6.com/\n秀书网:https://m.xiumb12.com/\n八一中文网:http://www.x81zws.com/\n等等",
     "bookSourceGroup": "",
     "bookSourceName": "孤独小说网",
