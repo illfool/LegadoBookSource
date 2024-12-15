@@ -55,6 +55,51 @@
     "weight": 0
   },
   {
+    "bookSourceComment": "by天天的鸟蛋蛋\n同模板\nwww.qhdbu.com\nwww.cxyxk.cn\nwww.jdzre.com",
+    "bookSourceGroup": "",
+    "bookSourceName": "青豆小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jdzwo.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1734249458381,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=author]@content",
+      "intro": "{{@@class.umys1j bookintromore@html}}\n{{@@[property$=description]@content}}",
+      "kind": "[property~=update_time|category|status]@content",
+      "lastChapter": "[property$=latest_chapter_name]@content",
+      "name": "[property$=book_name]@content"
+    },
+    "ruleContent": {
+      "content": "#TextContent@html",
+      "nextContentUrl": "",
+      "replaceRegex": "##www.*小说网"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".author > a@text",
+      "bookList": ".bookbox:nth-child(n+2)",
+      "bookUrl": "a@href",
+      "checkKeyWord": "",
+      "coverUrl": "img@data-original",
+      "intro": ".update@text",
+      "kind": ".author:nth-child(3)@text&&.author:nth-child(4)@text##.*：",
+      "lastChapter": ".cat > a@text",
+      "name": ".bookname > a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#listsss@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?searchkey={{key}}&action=login&submit=",
+    "weight": 0
+  },
+  {
     "bookSourceComment": "①\nhttp://api.jmlldsc.com/search?keyword={{key}}&page={{page}}\n②\nhttp://api.lfdapengu.com/search?keyword={{key}}&page={{page}}\n③：http://api.jxgtzxc.com/search?keyword={{key}}&page={{page}}\n④：http://api.lemiyigou.com/search?keyword={{key}}&page={{page}}\n⑤：http://api.myweipin.com/search?keyword={{key}}&page={{page}}",
     "bookSourceGroup": "",
     "bookSourceName": "猫眼看书",
@@ -1144,7 +1189,7 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/zwwsort1/0/{{page}}.htm\n武侠仙侠::/zwwsort2/0/{{page}}.htm\n都市言情::/zwwsort3/0/{{page}}.htm\n历史军事::/zwwsort4/0/{{page}}.htm\n同人名著::/zwwsort5/0/{{page}}.htm\n游戏竞技::/zwwsort6/0/{{page}}.htm\n科幻灵异::/zwwsort7/0/{{page}}.htm\n耽美动漫::/zwwsort8/0/{{page}}.htm\n其他类型::/zwwsort9/0/{{page}}.htm",
     "header": "@js:\n(()=>{\n    var ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.9999.99 Safari/537.36\";\n    var headers = {\n        \"User-Agent\": ua,\n        \"Referer\": baseUrl\n    };\n    return JSON.stringify(headers);\n})()",
-    "lastUpdateTime": 1732936503947,
+    "lastUpdateTime": 1734166426227,
     "respondTime": 1042,
     "ruleBookInfo": {
       "author": ".block_txt2@p.2@text",
@@ -1159,7 +1204,7 @@
     "ruleContent": {
       "content": "#nr@html",
       "nextContentUrl": "text.下一页@href",
-      "replaceRegex": "##（本章未完，请点击下一页继续阅读）|.*第.+?章.*"
+      "replaceRegex": "##（本章未完，请点击下一页继续阅读）|.*(第\\d/\\d页).*"
     },
     "ruleExplore": {
       "author": ".tjxs@span.1@text##作者：",
