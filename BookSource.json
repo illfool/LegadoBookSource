@@ -100,6 +100,54 @@
     "weight": 0
   },
   {
+    "bookSourceGroup": "",
+    "bookSourceName": "速读谷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sudugu.com",
+    "bookUrlPattern": "https://www.sudugu.com/\\d+/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/<,{{page}}.html>\n仙侠小说::/xianxia/<,{{page}}.html>\n都市小说::/dushi/<,{{page}}.html>\n历史小说::/lishi/<,{{page}}.html>\n科幻小说::/kehuan/<,{{page}}.html>\n奇幻小说::/qihuan/<,{{page}}.html>\n重生小说::/chongsheng/<,{{page}}.html>\n军事小说::/junshi/<,{{page}}.html>\n游戏小说::/youxi/<,{{page}}.html>\n轻小说::/qing/<,{{page}}.html>\n武侠小说::/wuxia/<,{{page}}.html>\n诸天无限::/zhutianwuxian/<,{{page}}.html>\n悬疑小说::/xuanyi/<,{{page}}.html>\n言情小说::/yanqing/<,{{page}}.html>\n体育小说::/体育/<,{{page}}.html>",
+    "header": "",
+    "lastUpdateTime": 1734527134966,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": ".itemtxt p.1@text",
+      "coverUrl": ".item img@src",
+      "intro": ".des.0@text",
+      "kind": ".itemtxt span@text",
+      "lastChapter": ".itemtxt li.0@text",
+      "name": "h1 a@text",
+      "wordCount": "h1 i@text"
+    },
+    "ruleContent": {
+      "content": ".con@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\s*({{ book.durChapterTitle }}|.*作者：.*|PS：.*求推荐！|PS：.*求收藏！|感谢.*打赏.*|感谢.*推荐票.*|感谢.*月票.*|（.*月票.*）|（为大家的.*票加更.*）|第二更在.*|为防止采集.*支持！|网址：sudugu\\.com|必应.*速读谷|loadAdv.*)\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "a.2@text",
+      "bookList": ".item",
+      "bookUrl": "a.1@href",
+      "checkKeyWord": "谁让他修仙的",
+      "coverUrl": "img@src",
+      "kind": "span@text",
+      "lastChapter": "li.0@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list li a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{'webView': true}",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.sudugu.com/i/sor.aspx?key={{key}}",
+    "weight": 0
+  },
+  {
     "bookSourceComment": "①\nhttp://api.jmlldsc.com/search?keyword={{key}}&page={{page}}\n②\nhttp://api.lfdapengu.com/search?keyword={{key}}&page={{page}}\n③：http://api.jxgtzxc.com/search?keyword={{key}}&page={{page}}\n④：http://api.lemiyigou.com/search?keyword={{key}}&page={{page}}\n⑤：http://api.myweipin.com/search?keyword={{key}}&page={{page}}",
     "bookSourceGroup": "",
     "bookSourceName": "猫眼看书",
@@ -1175,61 +1223,6 @@
       "nextTocUrl": "option!0@value"
     },
     "searchUrl": "https://wap.jhssd.com/search.html?ie=utf-8&word={{key}}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "by:浮生",
-    "bookSourceGroup": "",
-    "bookSourceName": "三五中文网",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://wap.xkushu.info",
-    "customOrder": 21,
-    "enabled": true,
-    "enabledCookieJar": true,
-    "enabledExplore": true,
-    "exploreUrl": "玄幻魔法::/zwwsort1/0/{{page}}.htm\n武侠仙侠::/zwwsort2/0/{{page}}.htm\n都市言情::/zwwsort3/0/{{page}}.htm\n历史军事::/zwwsort4/0/{{page}}.htm\n同人名著::/zwwsort5/0/{{page}}.htm\n游戏竞技::/zwwsort6/0/{{page}}.htm\n科幻灵异::/zwwsort7/0/{{page}}.htm\n耽美动漫::/zwwsort8/0/{{page}}.htm\n其他类型::/zwwsort9/0/{{page}}.htm",
-    "header": "@js:\n(()=>{\n    var ua = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.9999.99 Safari/537.36\";\n    var headers = {\n        \"User-Agent\": ua,\n        \"Referer\": baseUrl\n    };\n    return JSON.stringify(headers);\n})()",
-    "lastUpdateTime": 1734166426227,
-    "respondTime": 1042,
-    "ruleBookInfo": {
-      "author": ".block_txt2@p.2@text",
-      "coverUrl": "img@src",
-      "intro": ".intro_info@text##最新章节推荐地址：.*",
-      "kind": ".block_txt2@p.3@text##分类：",
-      "lastChapter": ".block_txt2@a.-1@text",
-      "name": ".block_txt2@a.1@text",
-      "tocUrl": "",
-      "wordCount": ""
-    },
-    "ruleContent": {
-      "content": "#nr@html",
-      "nextContentUrl": "text.下一页@href",
-      "replaceRegex": "##（本章未完，请点击下一页继续阅读）|.*(第\\d/\\d页).*"
-    },
-    "ruleExplore": {
-      "author": ".tjxs@span.1@text##作者：",
-      "bookList": "class.list fk@ul",
-      "bookUrl": "a.1@href",
-      "coverUrl": "img@src",
-      "intro": ".tjxs@span.2@text",
-      "kind": "",
-      "name": "a.1@text"
-    },
-    "ruleSearch": {
-      "bookList": "class.bookone",
-      "bookUrl": "a.0@href",
-      "checkKeyWord": "剑来",
-      "coverUrl": "img@src",
-      "lastChapter": "a.1@text",
-      "name": "a.0@text"
-    },
-    "ruleToc": {
-      "chapterList": ".chapter.1@li@a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "nextTocUrl": "text.下一页@href"
-    },
-    "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\n/modules/article/search.php,{\n  \"body\": \"s=8187119824486425142&submit=&type=articlename&q={{key}}\",\n  \"method\": \"POST\"\n}",
     "weight": 0
   },
   {
@@ -2356,7 +2349,7 @@
     "bookSourceName": "轻小说文库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.wenku8.net/index.php",
-    "customOrder": 43,
+    "customOrder": 44,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
@@ -2417,7 +2410,7 @@
     "bookUrlPattern": "https://w.linovelib.com|https://www.bilinovel.com|https://tw.linovelib.com",
     "concurrentRate": "1000",
     "coverDecodeJs": "",
-    "customOrder": 44,
+    "customOrder": 907,
     "enabled": true,
     "enabledCookieJar": true,
     "enabledExplore": true,
